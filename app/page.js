@@ -6,6 +6,7 @@ import plt_img from "./images/plt15k.png";
 import cat_img from "./images/cat_image.png";
 import bs_img from "./images/bs.png";
 import fn_img from ".images/fakenews.png";
+import io_img from "./images/cache.png";
 import 2048_img from ".images/2048.png";
 import yo from "./images/yo.jpg";
 
@@ -71,6 +72,12 @@ export default function Home() {
           img_route={fn_img}
           link="https://colab.research.google.com/drive/1sD-AOEMj8PoNJCiGH8K4udhkpQPeIW9c?usp=sharing"
           skills="Python, NLTK, Tensorflow"
+        />
+        <ProjectCard
+          name="File I/O Cache"
+          img_route={io_img}
+          link="https://github.com/csci0300/cs300-s24-projects-camiloabecerra"
+          skills="C"
         />
       </div>
     </div>
