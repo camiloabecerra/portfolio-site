@@ -62,7 +62,7 @@ export default function Home() {
           skills="Python, Streamlit, AlphaVantage API"
         />
         <ProjectCard
-          name="2048"
+          name="Flexible Board 2048 Videogame"
           img_route={game_img}
           link="https://code.pyret.org/editor#program=1Vgbcz1OWoc-1B9pFnrxc9z6UfpKZTr3P"
           skills="Pyret, Unit Testing"
@@ -74,7 +74,7 @@ export default function Home() {
           skills="Python, NLTK, Tensorflow"
         />
         <ProjectCard
-          name="File I/O Cache"
+          name="File I/O Memory Cache"
           img_route={io_img}
           link="https://github.com/csci0300/cs300-s24-projects-camiloabecerra"
           skills="C"
