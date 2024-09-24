@@ -5,6 +5,8 @@ import Image from "next/image";
 import plt_img from "./images/plt15k.png";
 import cat_img from "./images/cat_image.png";
 import bs_img from "./images/bs.png";
+import fn_img from ".images/fakenews.png";
+import 2048_img from ".images/2048.png";
 import yo from "./images/yo.jpg";
 
 export default function Home() {
@@ -37,7 +39,7 @@ export default function Home() {
         <ProjectCard
           name="Restaurant Recommendation Algorithm"
           img_route={plt_img}
-          link="https://github.com/camiloabecerra/restaurant-recs/tree/main"
+          link="https://drive.google.com/drive/folders/1-9tSGEyte5mdgwMpEaDqYSS4Yp72sx0v?usp=sharing"
           skills="Python, Sklearn, Word2Vec"
         />
         <ProjectCard
@@ -59,10 +61,16 @@ export default function Home() {
           skills="Python, Streamlit, AlphaVantage API"
         />
         <ProjectCard
-          name="Restaurant Recommendation Algorithm"
-          img_route={plt_img}
-          link="https://github.com/camiloabecerra/restaurant-recs/tree/main"
-          skills="Python, Sklearn, Word2Vec"
+          name="2048"
+          img_route={2048_img}
+          link="https://code.pyret.org/editor#program=1Vgbcz1OWoc-1B9pFnrxc9z6UfpKZTr3P"
+          skills="Pyret, Unit Testing"
+        />
+        <ProjectCard
+          name="Fake News Detector"
+          img_route={fn_img}
+          link="https://colab.research.google.com/drive/1sD-AOEMj8PoNJCiGH8K4udhkpQPeIW9c?usp=sharing"
+          skills="Python, NLTK, Tensorflow"
         />
       </div>
     </div>
