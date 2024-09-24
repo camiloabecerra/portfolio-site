@@ -1,0 +1,133 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/styles/page.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.page_topnav__mxcni {
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-left: 8px;
+}
+
+.page_topnav__mxcni h2 {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    cursor: default;
+}
+
+.page_me__nc_Ei {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin-left: 35%;
+    margin-bottom: 50px;
+
+    overflow: hidden;
+}
+
+#page_desc__2aemr {
+    width: 35%;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#page_desc__2aemr h2 {
+    margin-right: 10px;
+}
+
+#page_desc__2aemr p {
+    color: #cad6e0;
+}
+
+#page_yo__G1t2A {
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    aspect-ratio: 3545 / 3004;
+    border: 0px #9cc7d6 solid;
+    border-radius: 30px;
+}
+
+#page_right__n5FFy {
+    margin-left: 75%;
+}
+
+#page_right__n5FFy h2 {
+    font-size: 23px;
+    margin-top: 25px;
+    transition: color 0.2s ease-out;
+}
+
+#page_right__n5FFy h2:hover {
+    color: #52d9fa;
+    cursor: pointer;
+}
+
+.page_projects__idexl {
+    display: flex;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.page_projects__idexl > * {
+    margin-right: 20px;
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/styles/card.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.card_card__7b1NM {
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+    flex-shrink: 0;
+    white-space: wrap;
+    background: linear-gradient(to bottom right, #05b0ad, #0f3859);
+    box-shadow: 8px 4px 4px rgba(137, 178, 204, 0.08);
+    overflow: hidden;
+}
+
+.card_card__7b1NM img {
+    width: 300px;
+    height: 265px;
+    object-fit: cover;
+}
+
+.card_sub__bCPZZ {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.card_sub__bCPZZ h1 {
+    font-size: 23px;
+}
+
+.card_sub__bCPZZ p {
+    color: #cad6e0;
+}
+
+.card_text__2ewFX {
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#card_gh__IMvNt {
+    width: 49.52px;
+    height: 39.69px;
+    color: #ffffff;
+    transition: color 0.2s ease-out;
+    margin-right: 9px;
+}
+
+#card_gh__IMvNt:hover {
+    color: #52d9fa;
+}
+

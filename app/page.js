@@ -5,9 +5,9 @@ import Image from "next/image";
 import plt_img from "./images/plt15k.png";
 import cat_img from "./images/cat_image.png";
 import bs_img from "./images/bs.png";
-import fn_img from ".images/fakenews.png";
+import fn_img from "./images/fakenews.png";
 import io_img from "./images/cache.png";
-import 2048_img from ".images/2048.png";
+import game_img from "./images/2048.png";
 import yo from "./images/yo.jpg";
 
 export default function Home() {
@@ -63,7 +63,7 @@ export default function Home() {
         />
         <ProjectCard
           name="2048"
-          img_route={2048_img}
+          img_route={game_img}
           link="https://code.pyret.org/editor#program=1Vgbcz1OWoc-1B9pFnrxc9z6UfpKZTr3P"
           skills="Pyret, Unit Testing"
         />
